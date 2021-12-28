@@ -1,2 +1,2 @@
 # Games103_hws
-Games103 homewords
+Games103 homeworks
