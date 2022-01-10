@@ -22,17 +22,13 @@ Instructor: Huamin Wang
 <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/FVM_no_smoothing.gif" width="33%"/>
 
 #### with Laplacian smoothing (unstable with large init height)
-<figure class="FVM">
-  <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/FVM_low.gif" width="33%"/><img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/FVM_high.gif" width="33%"/>
-</figure>
+<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/FVM_low.gif" width="33%"/> <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/FVM_high.gif" width="33%"/>
 
 ### Method 2: FVM with hyperelastic models (StVK & Neo-Hookean) + Laplacian smoothing
 #### StVK (unstable with large init height)
-<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/StVK_low.gif" width="33%"/>
-<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/StVK_high.gif" width="33%"/>
+<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/StVK_low.gif" width="33%"/> <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/StVK_high.gif" width="33%"/>
 
 #### Neo-Hookean (stable, but bouncy)
-<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/NH_low.gif" width="33%"/>
-<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/NH_high.gif" width="33%"/>
+<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/NH_low.gif" width="33%"/> <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/NH_high.gif" width="33%"/>
 
 ## Lab 4:
