@@ -17,7 +17,7 @@ Instructor: Huamin Wang
 <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw2/cloth_simulation_implicit_int.gif" width="50%"/>
 
 ## Lab 3: Elastic body simulation
-### Method 1: FVM with Green strain
+### Method 1: FVM with StVK (computed using Green strain)
 #### without Laplacian smoothing (very unstable, could explode)
 <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/FVM_no_smoothing.gif" width="33%"/>
 
