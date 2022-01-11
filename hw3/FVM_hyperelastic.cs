@@ -272,8 +272,7 @@ public class FVM_hyperelastic : MonoBehaviour
                 lambda_2[0] + lambda_2[1] + lambda_2[2], 
                 lambda[0] * lambda[1] * lambda[2]);                     // I, II, III
             Matrix4x4 D = Matrix4x4.identity;
-            
-            // StVK 
+            // StVK
             // for (int i = 0; i < 3; i++)
             // {
             //     D[i, i] = 2 * stiffness_0 * S[i, i] * (Is[0] - 3) + stiffness_1 * S[i, i] * (S[i, i] * S[i, i] - 1);
@@ -302,8 +301,6 @@ public class FVM_hyperelastic : MonoBehaviour
 			Force[Tet[tet*4 + 3]] += f3;
     	}
 
-		int count = 0;
-
     	for(int i = 0; i < number; i++)
     	{
     		// Update X and V here.
@@ -329,7 +326,6 @@ public class FVM_hyperelastic : MonoBehaviour
 					vN *= (-uN);
 					vT *= a;
 					V[i] = vN + vT;
-					count++;
 				}
 			}
 

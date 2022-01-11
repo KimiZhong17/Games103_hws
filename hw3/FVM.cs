@@ -279,14 +279,13 @@ public class FVM : MonoBehaviour
 			Force[Tet[tet*4 + 3]] += f3;
     	}
 
-		int count = 0;
-
     	for(int i = 0; i < number; i++)
     	{
     		//TODO: Update X and V here.
 			V[i] += (Force[i] / mass) * dt;
 			V[i] *= damp;
 			
+			// Laplacian smoothing
 			V[i] = (V_num[i] * V[i] + V_sum[i]) / (2 * V_num[i]);
 
 			X[i] += V[i] * dt;
@@ -306,7 +305,6 @@ public class FVM : MonoBehaviour
 					vN *= (-uN);
 					vT *= a;
 					V[i] = vN + vT;
-					count++;
 				}
 			}
 
