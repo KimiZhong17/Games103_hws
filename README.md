@@ -31,4 +31,11 @@ Instructor: Huamin Wang
 #### Neo-Hookean (stable, but bouncy)
 <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/NH_low.gif" width="33%"/> <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw3/results/NH_high.gif" width="33%"/>
 
-## Lab 4:
+## Lab 4: Wave simulation
+### Method: Shallow wave model
+#### Blocks-water coupling (in two way)
+<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw4/results/single_rotate.gif" width="33%"/> <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw4/results/both_rotate.gif" width="33%"/>
+#### Rain drop effect
+<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw4/results/rain_drop.gif" width="33%"/>
+#### some artifacts to be solved
+<img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw4/results/init.gif" width="33%"/> <img src="https://github.com/KimiZhong17/Games103_hws/blob/main/hw4/results/take_off.gif" width="33%"/>
